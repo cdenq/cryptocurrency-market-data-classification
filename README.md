@@ -1,18 +1,23 @@
 # cryptocurrency-market-data-classification
-## About _
+## About Cryptocurrency Clusters
 
-`_` is a Python machine learning challenge that predicts whether a loan from LendingClub will become high risk or not. The machine learning models used are the Logistic Regression model and Random Forest Classifier model.
-
-LendingClub is a peer-to-peer lending services company that allows individual investors to partially fund personal loans, as well as, buy and sell notes backing the loans on a secondary market. LendingClub offers their previous data through an API.
+`Cryptocurrency Clusters` is a Python unsupervised machine learning challenge that seeks to understand raw cryptocurrency data from [CryptoCompare](https://www.cryptocompare.com/coins/list/all/USD/1). This project filters for active coins on the trading market and determines whether they can be grouped to create a classification system for potential cryptocurrency investment portfolios.
 
 ## Built with
 - Python
+    - Pandas
     - SKLearn
+        - Standard Scaler
+        - PCA
+        - tSNE
+        - K-Means
     - Matplotlib
 
 ## Technical Skills
+- Raw data cleaning
 - Data preprocessing for machine learning
 - Applying machine learning models on datasets
 - Visualization on multivariate datasets
 
 ## Screenshots
+![Image 1](https://user-images.githubusercontent.com/74934154/154568282-918eeb54-d9e3-4470-a995-40fa40732f61.png)
