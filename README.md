@@ -11,6 +11,8 @@
         - PCA
         - tSNE
         - K-Means
+        - Label Encoder
+        - One-hot Encoder
     - Matplotlib
 
 ## Technical Skills
